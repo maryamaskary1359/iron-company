@@ -1,0 +1,147 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.topbar {
+  border-bottom: 1px solid var(--second-color);
+  padding-bottom: 0;
+  /* overflow-y: hidden; */
+  position: relative;
+}
+
+.icon {
+  color: var(--primary-color);
+  font-size: 0.7rem;
+}
+
+.topbar__user-order {
+  color: var(--dark-color);
+  font-size: 12px;
+  box-shadow: -5px 0 5px -5px #333;
+}
+
+.topbar__shop-text {
+  color: var(--dark-color);
+  font-size: 10px;
+}
+.topbar__shop-text:hover,
+.topbar__user-order:hover {
+  color: var(--hover-color);
+  border: none;
+  -webkit-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+.topbar__shop-number {
+  color: var(--primary-color) !important;
+}
+.topbar__nav {
+  margin-left: 8px;
+}
+
+.topbar__nav-item {
+  margin-right: 1rem;
+}
+.topbar__nav-link {
+  color: var(--second-color);
+  font-size: 11px;
+}
+
+.active {
+  color: var(--primary-color);
+}
+
+.topbar__data {
+  margin-right: 0.3rem;
+}
+
+/* Style the custom dropdown container */
+.topbar__data-dropdown {
+  position: relative;
+  width: 4.8rem;
+  /* border: 1px solid #ccc; */
+  padding: 0.1rem;
+}
+
+/* Style the selected option */
+.selected-option {
+  cursor: pointer;
+  color: var(--second-color);
+  display: flex;
+  align-items: center;
+}
+.selected-option img,
+.options li img {
+  margin-left: 0.2rem;
+}
+.selected-option__icon {
+  margin-right: 0.5rem;
+  color: var(--second-color);
+  font-size: 0.5rem;
+}
+/* Style the options list */
+.options {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/* Style each option item */
+.topbar__data {
+  box-shadow: 5px 0 5px -5px #333;
+  padding-right: 1rem;
+}
+
+.topbar__data-dropdown:hover .options {
+  display: block;
+}
+.topbar__data-contact {
+  margin-right: 1rem;
+  font-family: IRANSans !important;
+}
+.topbar__data-contact--phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-left: 2rem;
+}
+
+.number2 {
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  font: bold;
+}
+.number1 {
+  color: var(--dark-color);
+}
+.topbar__data-contact--phoneText {
+  color: var(--second-color);
+  font-size: 10px;
+}
+.topbar__phone-icon {
+  font-size: 2.5rem;
+   left :-.5rem;
+   top: .8rem;
+   position: absolute;
+
+}

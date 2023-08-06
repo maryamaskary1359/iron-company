@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "IRANSans";
+  src: url("../fonts/IRANSans/IRANSans.ttf");
+}
+@font-face {
+  font-family: "A Noor";
+  src: url("../fonts/A Noor.ttf");
+}
+
+/* @font-face {
+  font-family: "Vazir";
+  src: url("../fonts/Vazir.eot");
+  src: url("../fonts/Vazir.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/Vazir.woff2") format("woff2");
+  src: url("../fonts/Vazir.woff") format("woff");
+  src: url("../fonts/Vazir.ttf") format("truetype");
+} */

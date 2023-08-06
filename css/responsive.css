@@ -1,0 +1,325 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@media screen and (max-width: 1400px) {
+  .products .container {
+    max-width: 1116px;
+  }
+  .morInformation__events {
+    padding: 0;
+  }
+  
+  .col-xl-2{
+    margin: 0 ;
+   }
+   .main__conection .container .row .col .p-3{
+    font-size:.8rem;
+   }
+}
+@media screen and (max-width: 1200px) {
+  .header-navbar #navbarSupportedContent .navbar-nav .nav-item .nav-link {
+    font-size: 0.9rem;
+  }
+  .landing__navbar .container .row div {
+    font-size: .6rem;
+  }
+  .products .container {
+    max-width: 936px;
+  }
+  .hot-body {
+    padding-top:2.8rem;
+    padding-bottom: 2.8rem;
+  }
+  .produt-hot__title{
+    font-size: 1rem;
+  }
+ .main__conection .container .row .col .p-3{
+  font-size:.7rem;
+ }
+  .main__conection .container .row .col div {
+    font-size: 0.8rem;
+  }
+  .Knowledge-upTitle{
+    font-size: 1.1rem;
+  }
+  .Knowledge-title{
+    font-size: 1.5rem;
+  }
+  .Knowledge-paragraph{
+    font-size:.9rem;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+  }
+  .Knowledge-subTitle{
+    font-size: .9rem;
+  }
+  .morInformation__events{
+   padding: .2rem 0;
+  }
+  .footnote{
+    margin: 2rem 0;
+  }
+  input{
+    min-width: 15rem;
+  }
+  .footnote__form {
+    /* margin: 2rem 12rem; */
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+}
+@media screen and (max-width: 992px) {
+  .topbar__user-order,
+  .topbar__shop-text,
+  .topbar__nav-link {
+    font-size: 0.6rem;
+  }
+    .topbar__user-order ,.topbar__data{
+      box-shadow: none;
+    }
+    .topbar__data{
+      padding-right: 0;
+    }
+ 
+  .selected-option {
+    font-size: 0.8rem;
+  }
+  .main__conection .container .row .col .p-3{
+    font-size:1rem;
+   }
+  .number2 {
+    font-size: 0.6rem;
+  }
+
+  .number1 {
+    font-size: 0.5rem;
+  }
+  .topbar__phone-icon {
+   top:1.3rem;
+   font-size: 1.5rem;
+  }
+  .header-navbar .nav-item .nav-link {
+    margin-bottom: 1rem;
+    padding-right: 3rem;
+  }
+  .navbar-collapse ul li:nth-child(1) {
+    margin-right: 0;
+  }
+  .header-navbar__left {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .landing__img {
+    min-height: 50vh;
+  }
+  .landing__navbar .container .row div {
+    font-size: 1rem;
+  }
+  .products .container {
+    max-width: 696px;
+  }
+  .produt-hot__title {
+    font-size: 2.2rem;
+  }
+  .col .card{
+    margin: 0 1rem;
+ }
+ .archive{
+  margin-bottom: 1rem;
+}
+  .footnote__form {
+    margin: 2rem 10rem;
+  }
+  .products .container .row .col-lg-4{
+    margin-bottom: 2rem;
+  }
+  .hot-img{
+  
+   padding-top: 6rem;
+  }
+  .produt-hot__right{
+   margin-top: -5rem;
+   }
+   .clip-body{
+    top: 50%;
+    left: 30%;
+   }
+   .col .card{
+  margin: .5rem 0;
+ }
+ .middel{
+  padding:0 .5rem;
+ }
+ .popular-middel{
+padding-bottom: .5rem;
+ }
+ .col-lg-4{
+  margin: 0 ;
+ }
+ .col-last{
+  margin: 0 10rem;
+ margin-bottom: 2rem;
+}
+
+.footer .container .row{
+  box-shadow:none;
+}
+.footnote {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+.footnote-down{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+}
+@media screen and (max-width: 768px) {
+  .header-topbar {
+    display: none;
+  }
+  .landing__img {
+    min-height: 28vh;
+  }
+  .produt-hot__title{
+    font-size:1.1rem;
+  
+  }
+  .hot-body {
+    padding: 1.5rem 1rem;
+    
+  }
+  .morInformation__Knowledge {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .morInformation__Knowledge-img {
+    min-width: none;
+    margin-bottom: 1rem;
+  }
+  .footer__connections {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  .footer__connections-buttom {
+    text-align: center;
+  }
+  .footer__information-right img {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  
+  .salesExpert__mobile {
+    font-size: 1rem;
+  }
+  .salesExpert__phonNumber {
+    margin-left: 0.5rem;
+  }
+  .products .container .row .col-lg-4 .card::after, .products .container .row .col-lg-4 .card::before{
+    content: none;
+  }
+  .products .container {
+ 
+    max-width:516px;
+  }
+  .col-last , .footnote >.footnote__items{
+    margin-right: 0;
+   
+  }
+}
+@media screen and (max-width: 5760px) {
+  .events-item__data {
+    font-size: 0.8rem;
+  }
+  .company-title{
+    right: 1rem;
+  }
+  .footnote__form {
+    margin: 2rem 4rem;
+  }
+  .footnote__items a {
+    display: inline-block;
+    padding-bottom: 0.5rem;
+  }
+
+  .footnote-btn{
+    font-size: 1rem;
+  }
+  .footnote-media-icon{
+   font-size: 1rem !important;
+  }
+}
+@media screen and (max-width: 482px) {
+  .landing__img {
+    min-height: 25vh;
+  }
+  .Knowledge-subTitle {
+    font-size: 0.6rem;
+  }
+  .Knowledge-subTitle__left {
+    margin-right: 2rem;
+  }
+
+  .footnote__form {
+    margin: 2rem 1.5rem;
+  }
+  input {
+    min-width: 10rem;
+  }
+  .opacity {
+    display: none;
+  }
+  .produt-hot__title {
+    font-size: 1.6rem;
+  }
+
+  .bubbling2,
+  .bubbling3 ,.bubbling1{
+    display: none;
+  }
+  .footnote-btn{
+    font-size: .5rem;
+    text-align: center;
+  }
+  .footnote-media-icon{
+    font-size: 1rem;
+  }
+  .number-inter{
+    font-size: .9rem;
+  }
+  .phon-number2{
+    font-size: .9rem;
+  }
+  .phon-number1{
+    font-size: .6rem;
+  }
+  .clip-body{
+    top: 55%;
+    left:35%;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .hot-img {
+    max-width:60%;
+  
+  }
+  .produt-hot__title {
+    font-size: 1.2rem;
+  }
+  .produt-hot__title{
+    font-size: .8rem;
+    font-weight: bolder;
+  }
+}

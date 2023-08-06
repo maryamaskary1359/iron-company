@@ -1,0 +1,42 @@
+@import "./variables.css";
+@import "./font.css";
+@import "./default.css";
+@import "./top-bar.css";
+@import "./navbar.css";
+@import "./main.css";
+@import  "./footer.css";
+
+
+.landing__img {
+    background:
+    url(../images/2-.png) no-repeat top;
+    background-size: cover;
+    background-position: center;
+     min-height:66vh;
+
+  
+  
+ }
+.landing__navbar{
+  background-color: var(--gray-color);
+  color: var(--dark-color);
+
+  border-bottom: 1px solid var(--main-color);
+}
+.landing__navbar .container .row  div{
+  padding:1.5rem 0;
+  cursor: pointer;
+  font-size: .7rem;
+}
+.landing__navbar .container .row  div:hover{
+  color: var(--primary-color);
+
+}
+.landing__navbar .container .row div:nth-child(4){
+  color: var(--white-color);
+  clip-path: polygon(29% 9%, 35% 0, 41% 8%, 100% 7%, 100% 100%, 0 99%, 0 10%);
+  background-color: var(--primary-color);
+ margin-top: -.5rem;
+ padding:2rem 0;
+}
+

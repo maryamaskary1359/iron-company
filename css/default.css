@@ -1,0 +1,45 @@
+/* Start Default Styles */
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.6;
+  font-size: 1.6rem;
+  font-family: IRANSans !important;
+  direction: rtl;
+}
+
+*,
+*::after,
+*::before {
+  outline: none;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: var(--dark-color);
+  transition: all 400ms ease;
+}
+
+a:hover {
+  color: var(--hover-color) !important;
+}
+
+i {
+  user-select: none;
+}
+
+nav ul li a.active {
+  color: var(--primary-color) !important;
+}
+/* Finish Default Styles */
+
+.salesExpert__btns {
+  display: flex;
+  gap: 3px;
+}

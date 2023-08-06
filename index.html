@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vendor/Bootstrap/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="vendor/Font Awesome/all.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title> آهن آنلاین | صفحه اصلی</title>
+</head>
+<body >
+  <!-- Start Header -->
+   <header class="header">
+     <div class="header-topbar">
+     <div class="container">
+      <div class="topbar  d-flex align-items-center justify-content-between" >
+          <div class="topbar__right d-flex align-items-center justify-content-between py-2">
+          <div class="topbar__user d-flex align-items-center ">
+          
+             <div href="#" class=" btn topbar__user-order  ">
+              <i class="fas fa-user icon topbar__user-icon "></i>
+               ثبت سفارش / پیگیری سفارش
+            </div>
+          </div>
+          <div class="topbar__shop d-flex align-items-center ">
+          
+            <div href="#" class=" btn topbar__shop-text  ">
+              <i class="fas fa-shop icon topbar__shop-icon "></i>
+              سبد خرید :
+              <span class="topbar__shop-number " id="3">3</span>
+           </div>
+          </div>
+          </div>
+        <div class="topbar__left d-flex align-items-center justify-content-between">
+          <ul class="topbar__nav d-flex align-items-center ">
+           <li class="topbar__nav-item ">
+            <a href="#" class="topbar__nav-link">فروشگاه</a>
+           </li>
+           <li class="topbar__nav-item">
+            <a href="#" class="topbar__nav-link">صدای مشتری</a>
+           </li>
+           <li class="topbar__nav-item active">
+            <a href="#" class="topbar__nav-link active">دانشنامه</a>
+           </li>
+           <li class="topbar__nav-item">
+            <a href="#" class="topbar__nav-link">تماس با ما</a>
+           </li>
+          </ul>
+          <div class="topbar__data d-flex align-items-center justify-content-between">
+            
+              <div class="topbar__data-dropdown">
+                <div class="selected-option">
+                  <img src="./images/flag/ir.png"/> ایران
+                   <i class="fas fa-angle-down selected-option__icon" ></i>
+                </div>
+                <ul class="options">
+                  <li  cl> <img src="./images/flag/ir.png" />ایران</li>
+                  <li> <img src="./images/flag/tr.png" /> ترکیه </li>
+                  <li><img src="./images/flag/us.png" /> آمریکا</li>
+                  <!-- Add more options here -->
+                </ul>
+             
+              </div>
+            <div class="topbar__data-contact d-flex align-items-center justify-content-between">
+               <div class="topbar__data-contact--phone" style="margin-bottom: -8px;">
+                <div class="topbar__data-contact--phoneNumber">
+                  <span class="number2" id="number2">۶۳۴۲۸</span>
+                  <span class="number1" id="number1">۰۲۱</span>
+                </div>
+                <div class="topbar__data-contact--phoneText">با ما در تماس باشید
+                </div>
+               </div>
+               <i class="fas fa-phone icon topbar__phone-icon "></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+     </div>
+     </div>
+     <div class="header-navbar">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <div class="d-flex align-items-center justify-content-between">
+            <a class="navbar-brand " href="#" >
+              <img src="./images/logo.png" alt="#" class="header-navbar__logo">
+             
+            </a>
+            <div class="header-navbar__text">
+              <div class="header-navbar__text--title">آهن آنلاین</div>
+              <div class="header-navbar__text--subHeading">با حرفه ای ها خرید کنید</div>
+            </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" href="#">
+                    <i class="fas fa-user navbar-icon"></i>میلگرد
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                     <i class="fas fa-user navbar-icon"></i>انواع ورق
+                    </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                     <i class="fas fa-user navbar-icon"></i>تیرآهن
+                    </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                     <i class="fas fa-user navbar-icon"></i>پروفایل
+                    </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                     <i class="fas fa-user navbar-icon"></i>نبشی
+                    </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                     <i class="fas fa-user navbar-icon"></i>انواع لوله
+                    </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                     <i class="fas fa-user navbar-icon"></i>تجهیزات
+                    </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                     <i class="fas fa-cog navbar-icon"></i>تولید و خدمات
+                    </a>
+                </li>
+           
+              </ul>
+              <div class="header-navbar__left   ">
+                <a href="#" class="btn header-navbar__search--btn  ">
+                  <i class="fas fa-search header-navbar__search-icon"></i>
+                </a>
+                <div class="navbar__data d-flex align-items-center justify-content-between">
+            
+                  <div class="header__data-dropdown">
+                    <div class="selected-option d-flex align-items-center ">
+                      <img src="./images/flag/ir.png"/> ایران
+                       <i class="fas fa-angle-down selected-option__icon" ></i>
+                    </div>
+                    <ul class="options">
+                      <li  > <img src="./images/flag/ir.png" />ایران</li>
+                      <li> <img src="./images/flag/tr.png" /> ترکیه </li>
+                      <li><img src="./images/flag/us.png" /> آمریکا</li>
+                      <!-- Add more options here -->
+                    </ul>
+                 
+                  </div>
+                
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+     </div>
+   </header>
+   <!-- Finish Header -->
+   <!-- Start Landing -->
+   <section class="landing">
+      <div class="landing__img"></div>
+      <div class="landing__navbar">
+       <div class="container  text-center">
+        <div class="row align-items-start mt-0">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-2 primary ">فرایند خرید</div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-2 ">فروش ویژه تیرآهن هیرید</div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-2">راه اندازی فروشگاه اینترنتی</div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-2 active">همکاری آهن  آنلاین و صنایع کوهپایه</div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-2">تخفیفات زمستانه آهن آنلاین</div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-2">استخدام</div>
+        </div>
+       </div>
+
+      </div>
+   </section>
+   <!-- Finish Landing--> 
+   <!-- Start Main -->
+    <section class="main">
+      <div class="products ">
+        <div class="container text-center  ">
+          <div class="row row-cols-1  row-cols-lg-2 ">
+            <div class="col-12 col-lg-4 ">
+              
+                <div class="card  hot-card" style="max-width: 100%;">
+                  <div class="card-header bg-transparent hotProposal ">پیشنهادات داغ
+                      <i class="fa fa-fire" aria-hidden="true"></i>
+                    
+                  </div>
+                  <div class="card-body hot-body ">
+                   <div class="product-hot d-flex align-items-center justify-content-between">
+                    <div class="produt-hot__right">
+                      <div class="produt-hot__headline">
+                        <h1 class="produt-hot__title">میلگرد ذوب آهن</h1>
+                         <div class="produt-hot__subTitle">
+                           تخفیف :
+                           <span class="produt-hot__Discount">کیلویی ۲۰ تومان</span>
+                         </div>
+                      </div>
+                      <div class="produt-hot__descript">
+                        <div class="produt-hot__isHas">مقدار موجود: ۲ ظرفیت</div>
+                        <div class="produt-hot__notHas">مقدار موجود:  ۰ ظرفیت</div>
+                        <div class="produt-hot__min">حداقل خرید : ۱ ظرفیت</div>
+                      </div>
+                    </div>
+                    <img src="./images/product/2-removebg-preview.png" class="img-fluid hot-img" alt="#">
+                     <div class="clip-body">داغ
+                      <i class="fa fa-fire" aria-hidden="true"></i>
+                     </div>
+                   </div>
+                  </div>
+                  <div class="card-footer  d-flex align-items-center justify-content-between ">
+                    <div class="product-footer__right d-flex align-items-center
+                    justify-content-between">
+                      <i class="fa fa-hourglass-half" aria-hidden="true"></i>
+                      <div class="saveTime">
+                        <div class="saveTime__text">زمان باقی مانده</div>
+                        <div class="saveTime__number">
+                          <a href="#" class="btn saveTime__btn">۰۱</a>
+                          :
+                          <a href="#" class="btn saveTime__btn">۱۲</a>
+                          :
+                          <a href="#" class="btn saveTime__btn">۰۷</a>
+                          :
+                          <a href="#" class="btn saveTime__btn">۰۱</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="product-footer__left d-flex align-items-center
+                    justify-content-between">
+                      <i class="fa fa-arrow-circle-right card-footer-arrow" > </i>
+                      پیشنهاد بعدی
+                    </div>
+                  </div>
+                
+              </div>
+              
+            </div>
+            <div class="col-12  col-lg-8 ">
+                <div class="popular ">
+              <div class="p-3 d-flex align-items-center justify-content-between">
+                <h2 class="popular-text ">محبوب ترین بخشها</h2>
+                  <div class="arrow-popular">
+                    <i class="fa fa-arrow-circle-right arrow-popular__right " > </i> 
+                    <i class="fa fa-arrow-circle-left  arrow-popular__left " > </i>
+                  </div>
+                </div>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3 g-0 popular-card ">
+                  <div class="col ">
+                    <div class="card ">
+                      <img src="./images/product/2-removebg-preview.png" class="card-img-top popular-img" alt="#">
+                      <div class="card-body"> 
+                        <div class="card-popular d-flex align-items-center justify-content-between">
+                          <div class="card-popular__text">
+                            <div class="card-popular__hedline">گریتینگ آهن آنلاین</div>
+                            <div class="card-popular__items">
+                              <div class="card-popular__item">تسمه در تسمه / نیم تسمه</div>
+                              <div class="card-popular__item">تسمه در چهر پهلوی تایید</div>
+                              <div class="card-popular__item">تسمه در میلگرد</div>
+                            </div>
+                          </div>
+                          <div class="card-popular__phons d-flex align-items-center justify-content-between">
+                            
+                              <div class="card-popular__phonNumber">
+                              <div class="popular-extension">
+                              داخلی
+                              <span class="popular-extension-number">۱۷۰</span>
+                              </div>
+                              <div class="popular-phoneNumber">۰۲۱۶۳۴۲۸</div>
+                              </div>
+                           
+                              <i class="fa fa-volume-control-phone popular-icon"   aria-hidden="true"></i>
+                             </div>
+                            
+                        </div> 
+                     
+                      
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col middel">
+                    <div class="card popular-middel">
+                      <img src="./images/product/1-removebg-preview.png" class="card-img-top popular-img" alt="#">
+                      <div class="card-body"> 
+                        <div class="card-popular d-flex align-items-center justify-content-between">
+                          <div class="card-popular__text">
+                            <div class="card-popular__hedline">پروفایل</div>
+                            <div class="card-popular__items">
+                              <div class="card-popular__item">تسمه در تسمه / نیم تسمه</div>
+                              <div class="card-popular__item">تسمه در چهر پهلوی تایید</div>
+                              <div class="card-popular__item">تسمه در میلگرد</div>
+                            </div>
+                          </div>
+                          <div class="card-popular__phons d-flex align-items-center justify-content-between phons-middle">
+                            
+                              <div class="card-popular__phonNumber">
+                              <div class="popular-extension">
+                              داخلی
+                              <span class="popular-extension-number">۱۷۰</span>
+                              </div>
+                              <div class="popular-phoneNumber">۰۲۱۶۳۴۲۸</div>
+                              </div>
+                           
+                              <i class="fa fa-volume-control-phone popular-icon"   aria-hidden="true"></i>
+                             </div>
+                            
+                        </div> 
+                     
+                      
+                      </div>
+                    </div>
+                  </div>
+                 
+                  <div class="col ">
+                    <div class="card  popular-first">
+                      <img src="./images/product/2-removebg-preview.png" class="card-img-top popular-img" alt="...">
+                      <div class="card-body">
+                        <div class="card-popular d-flex align-items-center justify-content-between">
+                          <div class="card-popular__text">
+                            <div class="card-popular__hedline">آلمونیوم</div>
+                            <div class="card-popular__items">
+                              <div class="card-popular__item">تسمه در تسمه / نیم تسمه</div>
+                              <div class="card-popular__item">تسمه در چهر پهلوی تایید</div>
+                              <div class="card-popular__item">تسمه در میلگرد</div>
+                            </div>
+                          </div>
+                          <div class="card-popular__phons d-flex align-items-center justify-content-between">
+                            <div class="card-popular__phonNumber">
+                              <div class="popular-extension">
+                              داخلی
+                              <span class="popular-extension-number">۱۷۰</span>
+                              </div>
+                              <div class="popular-phoneNumber">۰۲۱۶۳۴۲۸</div>
+                              </div>
+                           
+                              <i class="fa fa-volume-control-phone popular-icon"   aria-hidden="true"></i>
+                             </div>
+                          </div>
+                        </div>
+                       
+                     
+                      </div>
+                  </div>
+                  
+                </div>
+            </div>
+             
+          </div>
+        </div>
+      </div>
+      <div class="salesExpert">
+       <div class="container">
+         <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link salesExpert__link" aria-current="page" href="#">میلگرد</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active " href="#">انواع ورق</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link salesExpert__link" href="#">تیرآهن</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link salesExpert__link" href="#">نبشی</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link salesExpert__link" href="#">انواع لوله</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link salesExpert__link" href="#">پروفایل</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link salesExpert__link" href="#">تجهیزات</a>
+          </li>
+      
+        
+         </ul>
+         <div class="salesExpert__items">
+            <i class="fa fa-arrow-circle-left left-arrows " > </i>
+            <i class="fa fa-arrow-circle-right  right-arrows" > </i>
+            
+          <div class="card mb-3 salesExpert__item" style="max-width: 300px;">
+            <div class="row g-0">
+              <div class="col-md-4 salesExpert-img">
+                <img src="./images/5.png" class="img-fluid rounded-start opacity-image1" alt="#">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="salesExpert__title salesExpert__title-first">شیدا نظری</h5>
+                  <div class="card-text">
+                    <p class="salesExpert__subtitle">کارشناس فروش آهن فروشان ویژه
+                    </p>
+                      <div class="salesExpert__btns">
+                     <button class="salesExpert__btn">تیرآهن</button>
+                     <button class="salesExpert__btn">نبشی</button>
+                     <button class="salesExpert__btn">پروفایل</button>
+                      </div>
+                      <div class="salesExpert__phons salesExpert__phons-first">
+                         <div class="salesExpert__mobile">۰۹۱۲۱۱۱۸۷۸۹</div>
+                         <div class="salesExpert__phon">
+                          <div class="salesExpert__phonNumber">
+                          <div class="extension">
+                          داخلی
+                          <span class="extension-number">۱۷۰</span>
+                          </div>
+                          <div class="phoneNumber">۰۲۱۶۳۴۲۸</div>
+                          </div>
+                       
+                          <i class="fa fa-volume-control-phone"   aria-hidden="true"></i>
+                         </div>
+                      </div>
+                   
+                      </div>
+                    </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 salesExpert__item" style="max-width: 300px;">
+            <div class="row g-0">
+              <div class="col-md-4 salesExpert-img ">
+                <img src="./images/5.png" class="img-fluid rounded-start opacity-image2" alt="#">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="salesExpert__title">شیدا نظری</h5>
+                  <div class="card-text">
+                    <p class="salesExpert__subtitle">کارشناس فروش آهن فروشان ویژه
+                    </p>
+                      <div class="salesExpert__btns">
+                     <button class="salesExpert__btn">تیرآهن</button>
+                     <button class="salesExpert__btn">نبشی</button>
+                     <button class="salesExpert__btn">میلگرد</button>
+                      </div>
+                      <div class="salesExpert__phons">
+                         <div class="salesExpert__mobile">۰۹۱۲۱۱۱۸۷۸۹</div>
+                         <div class="salesExpert__phon">
+                          <div class="salesExpert__phonNumber">
+                          <div class="extension">
+                          داخلی
+                          <span class="extension-number">۱۷۰</span>
+                          </div>
+                          <div class="phoneNumber">۰۲۱۶۳۴۲۸</div>
+                          </div>
+                       
+                          <i class="fa fa-volume-control-phone"   aria-hidden="true"></i>
+                         </div>
+                      </div>
+                   
+                      </div>
+                    </div>
+              </div>
+            </div>
+         </div>
+          <div class="card mb-3 salesExpert__item" style="max-width: 300px;">
+            <div class="row g-0">
+              <div class="col-md-4 salesExpert-img">
+                <img src="./images/5.png" class="img-fluid rounded-start opacity-image3" alt="#">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="salesExpert__title">شیدا نظری</h5>
+                  <div class="card-text">
+                    <p class="salesExpert__subtitle">کارشناس فروش آهن فروشان ویژه
+                    </p>
+                      <div class="salesExpert__btns">
+                     <button class="salesExpert__btn">تیرآهن</button>
+                     <button class="salesExpert__btn">نبشی</button>
+                     <button class="salesExpert__btn">میلگرد</button>
+                      </div>
+                      <div class="salesExpert__phons">
+                         <div class="salesExpert__mobile">۰۹۱۲۱۱۱۸۷۸۹</div>
+                         <div class="salesExpert__phon">
+                          <div class="salesExpert__phonNumber">
+                          <div class="extension">
+                          داخلی
+                          <span class="extension-number">۱۷۰</span>
+                          </div>
+                          <div class="phoneNumber">۰۲۱۶۳۴۲۸</div>
+                          </div>
+                         <i class="fa fa-volume-control-phone"   aria-hidden="true"></i>
+                         </div>
+                      </div>
+                   
+                      </div>
+                    </div>
+              </div>
+            </div>
+         
+          </div>
+          <div class="card mb-3 salesExpert__item" style="max-width: 300px;">
+            <div class="row g-0">
+              <div class="col-md-4 salesExpert-img">
+                <img src="./images/5.png" class="img-fluid rounded-start " alt="#">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="salesExpert__title">شیدا نظری</h5>
+                  <div class="card-text">
+                    <p class="salesExpert__subtitle">کارشناس فروش آهن فروشان ویژه
+                    </p>
+                      <div class="salesExpert__btns">
+                     <button class="salesExpert__btn">تیرآهن</button>
+                     <button class="salesExpert__btn">میلگرد</button>
+                
+                      </div>
+                      <div class="salesExpert__phons">
+                         <div class="salesExpert__mobile">۰۹۱۲۱۱۱۸۷۸۹</div>
+                         <div class="salesExpert__phon">
+                          <div class="salesExpert__phonNumber">
+                          <div class="extension">
+                          داخلی
+                          <span class="extension-number">۱۷۰</span>
+                          </div>
+                          <div class="phoneNumber">۰۲۱۶۳۴۲۸</div>
+                          </div>
+                       
+                          <i class="fa fa-volume-control-phone"   aria-hidden="true"></i>
+                         </div>
+                      </div>
+                   
+                      </div>
+                    </div>
+              </div>
+            </div>
+         
+          </div>
+          
+          </div>
+        
+        </div>
+      </div>
+      <div class="main__picture">
+      <div class="main__picture-phone">
+        <div>
+        <span class="main-code">۶۳۴۲۸</span>
+        <span class="area-code">۰۲۱</span>
+        </div>
+        <div class="main__picture-phone--text">با ما در تماس باشید</div>
+      </div>
+      
+      <div class="bubbling1">جانم</div>
+      <div class="bubbling2">جانم</div>
+      <div class="bubbling3">جانم</div>
+      <div class="main__picture-contact">
+        <div>
+         <span class="main__picture-contact--text">آهن آنلاین</span>
+        <span class="main__picture-contact--letter1" >ا</span>
+        <span class="main__picture-contact--letter2">لو</span>
+        <i class="fa fa-wifi main__picture-icon" aria-hidden="true"></i>
+        </div>
+      </div>
+      </div>
+      <div class="main__conection">
+      <div class="container text-center">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-2 g-lg-3">
+          <div class="col">
+            <div class="p-3 scales d-flex align-items-center justify-content-between">
+              <div class="scales__item d-flex align-items-center justify-content-between">
+                <i class="fas fa-user scales__item-icon conection-icon "></i>
+                <div class="factor__item-text  conection-text">جداول وزنی</div>
+              </div>
+              <a href="#" class="scales__link  conection-link">مشاهده کنید</a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 factor  d-flex align-items-center justify-content-between">
+              <div class="factor__item d-flex align-items-center justify-content-between">
+                 <i class="fa fa-file-text factor__item-icon conection-icon" ></i>
+                <div class="factor__item-text conection-text">ارائه فاکتور رسمی
+                </div>
+              </div>
+              <a href="#" class="factor__link  conection-link">نمونه</a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 transportation d-flex align-items-center justify-content-between">
+             <i class="fa fa-truck  transportation__item-icon conection-icon" ></i>
+              <div class="transportation__item-text conection-text">ارسال به سراسر کشور
+              </div>
+            </div>
+          </div>
+          <div class="col"> 
+            <div class="p-3 telegram d-flex align-items-center justify-content-between">
+              <div class="telegram__item d-flex align-items-center justify-content-between">
+                <i class="fa-brands fa-telegram  telegram__item-icon conection-icon" ></i>
+               <div class="telegram__item-text conection-text">تلگرام
+               </div>
+             </div>
+             <a href="#" class="telegram__link  conection-link">مشاهده کانال</a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 instagram d-flex align-items-center justify-content-between">
+              <div class="instagram__item d-flex align-items-center justify-content-between">
+                  <i class="fa-brands fa-instagram instagram__item-icon conection-icon"></i>
+               <div class="instagram__item-text conection-text">اینستگرام
+               </div>
+               
+              </div>
+              <a href="#" class="instagram__link  conection-link">مشاهده صفحه</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+        
+      </div>
+      <div class="morInformation">
+      <div class="container ">
+        <div class="row row-cols-md-1 row-cols-lg-2 g-2 ">
+          <div class="col-md-12 col-lg-8">
+            <div class="p-3 morInformation-right">
+              <div class="morInformation__Knowledge d-flex align-items-center justify-content-between ">
+                <div class="morInformation__Knowledge-img">
+                  <img src="./images/Knowledge-img-.png" class="img-thumbnail rounded" alt="#">
+                </div>
+                <div class="morInformation__Knowledge-data">
+                  <span class="Knowledge-upTitle">دانش نامه</span>
+                  <h2 class="Knowledge-title">سیم خاردار حلقوی</h2>
+                  <p class="Knowledge-paragraph">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا</p>
+                  <div class="Knowledge-subTitle d-flex align-items-center justify-content-between">
+                    <div class="Knowledge-subTitle__right d-flex align-items-center justify-content-between">
+                      <div class="Knowledge-subTitle__right-comment ">
+                         <i class="fa fa-comment comment-icon" ></i>
+                         ۳۴
+                      </div>
+                       <span class="Knowledge-subTitle__right-date">شنبه ۲۸ آبان ۱۳۹۶</span>
+                    </div>
+                    <div class="Knowledge-subTitle__left">
+                      ادامه مطلب
+                      <i class="fa fa-arrow-circle-left arrowIcon" ></i>
+                    </div>
+                  </div>
+                </div>
+              
+              </div>
+                <div class="title-report">دانش نامه</div>
+            </div>
+            <dive class="archive">نمایش آرشیو</dive>
+          </div>
+            
+          <div class="col-md-12 col-lg-4 ">
+            <div class="p-3 morInformation-left">
+              <div class="morInformation__events ">
+               
+                  <div class="events-item  ">
+                    <img src="./images/event1.png" class="img-thumbnail rounded" alt="#"/>
+                    <div class="events-item__data">
+                      <div class="event-title">مختصات ایران در دوران گذار فولاد جهانی</div>
+                      <div class="event-subTitle">
+                        <div class="event-subtitle__right">
+                          <i class="fa fa-comment comment-icon" ></i>
+                          ۳۴
+                        </div>
+                        <div class="event-subtitle__date">شنبه ۲۸آبان ۹۶</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="events-item  ">
+                    <img src="./images/event-2.png" class="img-thumbnail rounded" alt="#"/>
+                    <div class="events-item__data">
+                      <div class="event-title">صادرات نیاز ما نیست . نیاز داخل را تامین میکنیم</div>
+                      <div class="event-subTitle">
+                        <div class="event-subtitle__right">
+                          <i class="fa fa-comment comment-icon" ></i>
+                          ۶۶
+                        </div>
+                        <div class="event-subtitle__date">شنبه ۲۸آبان ۹۶</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="events-item    ">
+                    <img src="./images/event-3.png" class="img-thumbnail rounded" alt="#"/>
+                    <div class="event-item__active  d-flex align-items-center justify-content-between">
+                       <div class="events-item__data">
+                      <div class="event-title item-active">هند جایگاه ایران ئر تولید آهن اسفنجی را گرفت</div>
+                      <div class="event-subTitle">
+                        <div class="event-subtitle__right">
+                          <i class="fa fa-comment comment-icon item-active" ></i>
+                          ۱۲
+                        </div>
+                        <div class="event-subtitle__date">شنبه ۲۸آبان ۹۶</div>
+                      </div>
+                       </div>
+                       <i class="fa fa-arrow-circle-left item-active arrow-icon" > </i>
+                   
+                    </div>
+                    
+                  </div>
+                  <div class="events-item  ">
+                    <img src="./images/event-4.png" class="img-thumbnail rounded" alt="#"/>
+                    <div class="events-item__data">
+                      <div class="event-title">استارت تحول در بخش زغال سنگ ایران</div>
+                      <div class="event-subTitle">
+                        <div class="event-subtitle__right">
+                          <i class="fa fa-comment comment-icon" ></i>
+                          ۱۴
+                        </div>
+                        <div class="event-subtitle__date">شنبه ۲۸آبان ۹۶</div>
+                      </div>
+                    </div>
+                  </div>
+                
+               
+              </div>
+              <div class="title-report">رویداد ها</div>
+            </div>
+            <dive class="archive">نمایش آرشیو</dive>
+          </div>
+         
+        </div>
+      </div>
+      </div>
+      <div class="companies">
+      <div class="container">
+        <div class="company-title">برخی از شرکتهای تامین کننده فولاد ایران
+          
+        </div>
+           <div class="d-flex align-items-center justify-content-between company">
+            <i class="fa fa-arrow-circle-right item-active " > </i>
+            <div class="row text-center ">
+            <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-2 col-xxl-1 ">
+              <img src="./images/compenise/1--removebg-preview (1).png" class="img-fluid" alt="#">
+            </div>
+            <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-2 col-xxl-1 ">
+              <img src="./images/compenise/2--removebg-preview.png" class="img-fluid" alt="#">
+            </div>
+            <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-2 col-xxl-1 ">
+              <img src="./images/compenise/3--removebg-preview.png" class="img-fluid" alt="#">
+            </div>
+            <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-2 col-xxl-1 ">
+              <img src="./images/compenise/4--removebg-preview.png" class="img-fluid" alt="#">
+            </div>
+            <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-2 col-xxl-1 ">
+              <img src="./images/compenise/5--removebg-preview.png" class="img-fluid" alt="#">
+            </div>
+            <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-2 col-xxl-1 ">
+              <img src="./images/compenise/6-removebg-preview.png" class="img-fluid" alt="#">
+            </div>
+            <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-2 col-xxl-1 ">
+              <img src="./images/compenise/1--removebg-preview (1).png" class="img-fluid" alt="#">
+            </div>
+            <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-2  col-xxl-1">
+              <img src="./images/compenise/2--removebg-preview.png" class="img-fluid" alt="#">
+            </div>
+       
+            </div>
+            <i class="fa fa-arrow-circle-left  arrowIcon" > </i>
+            </div>
+       </div>
+      </div>
+   </section> 
+   <!-- Finish Main-->           
+    <!-- Start Footer -->
+    <footer class="footer ">
+       <div class="container">
+        <div class="row ">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="footer__information ">
+              <div class="footer__information-right">
+                <img src="./images/logo-2-.png" class="img-fluid" alt="#">
+                 <div class="footer__information-text">
+                  <div class="footer__information--title">
+                    آهن آنلاین</div>
+                  <div class="footer__information--subtitle">با حرفه ای ها خرید کنید</div>
+                 </div>
+              </div>
+                <p class="footer__information-paragraph">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا
+                </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="footer__connections">
+              <div class="footer__connections-top  ">
+                <div class="footer__connections-phone ">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <div class="phon-number   ">
+                    <span class="number-inter">داخلی ۶۵۰</span>
+                     <span class="phon-number2">۶۳۴۲۸</span>
+                     <span class="phon-number1">۰۲۱</span>
+                  </div>
+                </div>
+                <div class="footer__connections-Services">
+                  <div class="servise-title">خدمات مشتریان</div>
+                  <div class="servise-subtitle">خدمات مشتریان آهن آنلاین آماده هر گونه در زمینه پیگیری . شکایات ونیاز مشتریان است</div>
+                </div>
+              </div>
+              <div class="footer__connections-buttom">
+                <i class="fa fa-map-marker map" ></i>
+                <div class="footer__connections-buttom-data">
+                  <div class="address">آدرس : تهران-ستار خان-خیابان حبیب -نبش بنبست بنفشه-پ ۱۱۴</div>
+                  <div class="hourse-work">
+                    <div>ساعت کاری</div>
+                    <div>شنبه تا چهار شنبه از ساعت ۸:۳۰ تا ۱۷</div>
+                    <div>پنج شنبه ها از  ۸:۳۰ تا ۱۲.۳۰</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 col-last">
+            <div class="footer__symbol">
+                <div class="circles">
+                  <div class="sircle1"></div>
+                  <div class="sircle2"></div>
+                  <div class="sircle3"></div>
+                </div>
+                <img src="./images/symbol-.png" class="img-fluid" alt="#">
+            </div>
+          </div>
+        </div>
+       </div>
+       <div class="container">
+        <div class="footnote">
+          <div class="footnote__items">
+            <a href="#" class="footnote__link">درباره ما /</a>
+            <a href="#" class="footnote__link"> لینک های مرتبط /</a>
+            <a href="#" class="footnote__link">فرم استخدام /</a>
+            <a href="#" class="footnote__link">صدای  مشتری /</a>
+            <a href="#" class="footnote__link">تولیدات /</a>
+            <a href="#" class="footnote__link">تماس با ما </a>
+          </div>
+          <div class="footnote__form">
+          <input type="email"  >
+          <div>
+           <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+          </div>
+        
+       </div>
+     
+        </div>
+        <div class="footnote-down">
+          <button class="footnote-btn">
+          <a href="#">
+            <i class="fa fa-arrow-up" aria-hidden="true"></i>
+          </a>
+            برو به بالا
+          </button>
+          <div class="footnote-media">
+            <i class="fa-brands fa-instagram  footnote-media-icon"></i>
+            <i class="fa-brands fa-telegram  footnote-media-icon"></i>
+            <i class="fa-brands fa-twitter twitter__item-icon footnote-media-icon"></i>
+            <i class="fa-brands fa-facebook footnote-media-icon "></i>
+            <i class="fa-brands fa-google-plus  footnote-media-icon "></i>
+           
+        </div>
+       </div>
+     </footer>
+     <!-- Finish Footer -->
+ 
+    <script src="vendor/Bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="vendor/Font Awesome/all.min.js"></script>
+    <script src="js/top-bar.js"></script>
+    <script src="js/main-header.js"></script>
+  </body>
+</html>
